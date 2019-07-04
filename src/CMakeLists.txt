@@ -70,6 +70,7 @@ ADD_LIBRARY(${LIBRARY_NAME}
   holonomic-constraint.cc
   delay.cc
   time.cc
+  ros_tf_broadcaster.cc
   )
 
 PKG_CONFIG_USE_DEPENDENCY (${LIBRARY_NAME} dynamic-graph-python)
